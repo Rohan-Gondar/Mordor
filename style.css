@@ -4,11 +4,11 @@ body {
     margin: 0;
     padding: 0;
     color: #2E8B57;
-    background-color: #FFFFFF;
+    background-color: #28c55d;
 }
 
 header {
-    background-color: #F8F8FF;
+    background-color: linear-gradient(90deg, Red, Orange, Yellow, Green, Blue, Indigo,violet);
     padding: 20px;
     text-align: center;
     border-bottom: 4px solid #B0C4DE;
