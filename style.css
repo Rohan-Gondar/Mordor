@@ -4,7 +4,7 @@ body {
     margin: 0;
     padding: 0;
     color: #2E8B57;
-    background-color: #28c55d;
+    background-color: linear-gradient(90deg, Red, Orange, Yellow, Green, Blue, Indigo,violet);
 }
 
 header {
@@ -17,7 +17,7 @@ header {
 section {
     padding: 20px;
     margin: 20px;
-    background-color: rgba(248, 248, 255, 0.3);
+    background-color: linear-gradient(90deg, Red, Orange, Yellow, Green, Blue, Indigo,violet);
     border: 4px solid #B0C4DE;
 }
 
@@ -36,13 +36,13 @@ li {
     margin-bottom: 10px;
     padding: 10px;
     border: 2px solid #B0C4DE;
-    background-color: rgba(176, 196, 222, 0.1);
+    background-color: linear-gradient(90deg, Red, Orange, Yellow, Green, Blue, Indigo,violet);
 }
 
 form {
     display: flex;
     flex-direction: column;
-    background-color: #F8F8FF;
+    background-color: linear-gradient(90deg, Red, Orange, Yellow, Green, Blue, Indigo,violet);
     padding: 20px;
     border: 4px solid #B0C4DE;
 }
@@ -57,7 +57,7 @@ input, textarea {
     padding: 10px;
     border: 2px solid #B0C4DE;
     border-radius: 0;
-    background-color: #FFFFFF;
+    background-color: linear-gradient(90deg, Red, Orange, Yellow, Green, Blue, Indigo,violet);
     color: #4682B4;
     font-family: 'Courier New', monospace;
 }
