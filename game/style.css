@@ -39,3 +39,21 @@ a {
 a:hover {
     text-decoration: underline; /* Підкреслення посилання на наведенні */
 }
+
+/* Додати зображення в центрі біля правого верхнього кута */
+.image-container {
+    position: absolute;
+    top: 10px;
+    right: 50%;
+    transform: translateX(50%);
+    border: 3px solid #4A4A4A; /* Темно-сіра рамка */
+    border-radius: 10px; /* Згладжені кути рамки */
+    padding: 5px;
+    background-color: rgba(26, 26, 29, 0.8); /* Напівпрозорий фон для рамки */
+}
+
+.image-container img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
