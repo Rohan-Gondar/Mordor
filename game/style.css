@@ -57,3 +57,10 @@ a:hover {
     max-width: 100%;
     height: auto;
 }
+.sauron-speech {
+    color: #E5E5E5; /* Світлий текст */
+    font-size: 18px;
+    text-align: center;
+    margin-top: 10px;
+    font-family: 'MedievalSharp', cursive; /* Тематичний шрифт */
+}
