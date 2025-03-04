@@ -1,0 +1,41 @@
+body {
+    background-color: #1A1A1D; /* Темний фон */
+    color: #D3D3D3; /* Світлий текст */
+    font-family: 'MedievalSharp', cursive; /* Тематичний шрифт */
+}
+
+h1, h2, h3 {
+    color: #BCBCBC; /* Світло-сірий текст заголовків */
+    text-shadow: 2px 2px 5px #000; /* Тінь для заголовків */
+}
+
+.container {
+    border: 2px solid #4A4A4A; /* Темно-сіра рамка */
+    border-radius: 10px; /* Згладжені кути */
+    padding: 20px;
+    background-color: rgba(26, 26, 29, 0.8); /* Напівпрозорий фон для контейнера */
+}
+
+button {
+    background-color: #333; /* Темні кнопки */
+    color: #D3D3D3; /* Світлий текст на кнопках */
+    border: 2px solid #4A4A4A; /* Темно-сіра рамка на кнопках */
+    border-radius: 5px;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #444; /* Зміна кольору на наведенні */
+    border-color: #666; /* Зміна кольору рамки на наведенні */
+}
+
+a {
+    color: #E5E5E5; /* Світлі посилання */
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline; /* Підкреслення посилання на наведенні */
+}
